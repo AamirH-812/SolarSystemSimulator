@@ -40,7 +40,7 @@ for i=1:n %for each body
            DX(i,6) = DX(i,6)+((-GM(j)*(Y(i,3)-Y(j,3))/r^3)*(1-(9*GM(j))/(c_sqr*a(i)))+((6*GM(j))/(c_sqr*abs(r))));
         
        
-        elseif i~=j %if bodeis aren't the same
+        elseif i~=j %if bodies aren't the same
             
             r = sqrt((Y(i,1)-Y(j,1))^2+(Y(i,2)-Y(j,2))^2+(Y(i,3)-Y(j,3))^2); %this is the distance between two bodies, i and j.
             
