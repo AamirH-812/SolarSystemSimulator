@@ -19,7 +19,7 @@ end
 DX=zeros(n,6); %initialise DX for speed.
 a=zeros(1,n); %initialise a for speed.
 mu=0; %initlaise mu
-c_sqr=(3*10^8)^2; %set constant that is useful later
+c_sqr=(63197.8)^2; %set constant that is useful later
 
 for i=1:n %for each body
     for j=1:n   %and each body
